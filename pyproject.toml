@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "bermuca-pygame"
+version = "0.1.0"
+description = ""
+authors = ["João Paulo Carvalho <jjpaulo2@protonmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pygame = "^2.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
